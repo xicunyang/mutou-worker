@@ -1,8 +1,8 @@
 <template>
   <div class='index'>
-      <Title title='Works of YangXiCun' :icon-type="'md-git-network'"></Title>
+      <Title title='Works of XiCunYang' :icon-type="'md-git-network'"></Title>
       <div class="me">
-          <img src="https://bj-mutou-1301404888.cos.ap-beijing.myqcloud.com/cdn/mutou-works/me.png" alt="">
+          <img src="https://bj-mutou-1301404888.cos.ap-beijing.myqcloud.com/cdn/mutou-works/me.gif" alt="">
       </div>
       <div class="works">
           <WorkItem v-for="item in works" 
@@ -33,6 +33,12 @@ export default {
         return {
             works: [
                 {
+                    id: 3,
+                    title: '持续开发中...',
+                    desc:'之前实践过很多的小项目，整理的时候都看不上眼了，宁缺毋滥吧，继续加油付诸更多实践~',
+                    noClick: true
+                },
+                {
                     id: 1,
                     title: 'office文件转png图片 ( SPA版本 ) ',
                     imgUrl: 'https://bj-mutou-1301404888.cos.ap-beijing.myqcloud.com/cdn/mutou-works/file2png-img.jpg',
@@ -54,7 +60,7 @@ export default {
                     并附以接口文档及Docker私有化部署文档。
                     （本版本为SSR版本）。`,
                     netUrl: 'http://office.yangxc.cn:9999'
-                }
+                },
             ]
         }
     },

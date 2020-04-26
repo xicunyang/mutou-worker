@@ -5,10 +5,10 @@
             <Icon type="logo-codepen" /> &nbsp; 
             <span >{{item.title}}</span>
         </p>
-        <div class="work-item-img" @click='jumpUrl(item.netUrl)'>
+        <div class="work-item-img" @click='jumpUrl(item)'>
             <img :src="item.imgUrl" alt="">
         </div>
-        <div class="work-item-desc">
+        <div class="work-item-desc" @click='jumpUrl(item)'>
             <slot name="desc">
                    
             </slot>
@@ -27,8 +27,10 @@ export default {
         }
     },
     methods: {
-        jumpUrl(netUrl){
-            window.open(netUrl)
+        jumpUrl(item){
+            if(!item.noClick){
+                window.open(item.netUrl)
+            }
         }
     },
 }

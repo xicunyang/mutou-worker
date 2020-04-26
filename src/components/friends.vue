@@ -35,7 +35,7 @@ export default {
                     id: 2,
                     title: 'GitHub',
                     netUrl: 'https://github.com/xicunyang',
-                    imgUrl: 'https://bj-mutou-1301404888.cos.ap-beijing.myqcloud.com/cdn/mutou-works/github.jpg',
+                    imgUrl: 'https://bj-mutou-1301404888.cos.ap-beijing.myqcloud.com/cdn/mutou-works/github.png',
                 },
                 {
                     id: 3,
@@ -71,15 +71,16 @@ export default {
 .friends{
     .cards{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         flex-wrap: wrap;
 
         .item-card{
             margin-top: 13px;
-            width: 45%;
+            width: 48%;
 
             .item{
                 height: 3.3rem;
+                overflow: hidden;
 
                 .item-img{
                     height: 100%;
