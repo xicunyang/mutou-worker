@@ -1,24 +1,5 @@
 # mutou-works
 
-## Project setup
-```
-yarn install
-```
+### 1. sh start.sh
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 2. 拿到dist文件夹  放入cdn
