@@ -5,7 +5,7 @@
           <img src="https://bj-mutou-1301404888.cos.ap-beijing.myqcloud.com/cdn/mutou-works/me.gif" alt="">
       </div>
       <div class="works">
-          <WorkItem v-for="item in works" 
+          <WorkItem v-for="item in works"
             :key="item.id"
             :item="item">
             {{item}}
@@ -39,7 +39,15 @@ export default {
                     noClick: true
                 },
                 {
-                    id: 1,
+                    id: 5,
+                    title: 'qiankun 微前端框架实践',
+                    imgUrl: 'https://bj-mutou-1301404888.cos.ap-beijing.myqcloud.com/cdn/mutou-works/micro-front.gif',
+                    desc: `❤️微前端是近两年前端社区非常热的一个话题，年前我偶然看到公众号推送的文章之后，对微前端产生了很浓的兴趣，
+                    最近在工作之余，搜罗了一些关于微前端的知识，基于阿里的qiankun框架，进行了一点点实践，这里记录一下。`,
+                    netUrl: 'http://office.yangxc.cn:3334'
+                },
+                {
+                    id: 3,
                     title: 'office文件转png图片 ( SPA版本 ) ',
                     imgUrl: 'https://bj-mutou-1301404888.cos.ap-beijing.myqcloud.com/cdn/mutou-works/file2png-img.jpg',
                     desc: `由于去年项目中有实现在线预览文档的需求，当时因为项目紧急，且没办法使用阿里云OSS的文档工具，
@@ -62,7 +70,7 @@ export default {
                     netUrl: 'http://office.yangxc.cn:9999'
                 },
                 {
-                    id: 3,
+                    id: 1,
                     title: '图片验证码插件',
                     imgUrl: 'https://bj-mutou-1301404888.cos.ap-beijing.myqcloud.com/cdn/mutou-works/image-verify-code.gif',
                     desc: `作为一次独立开发插件的实践。利用业余时间将项目中的图片验证码插件进行拆分，暴露配置选项，封装出来的该验证码插件，
