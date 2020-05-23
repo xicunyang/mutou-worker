@@ -33,13 +33,13 @@ export default {
         return {
             works: [
                 {
-                    id: 0,
+                    id: '5',
                     title: '持续开发中...',
                     desc:'之前实践过很多的小项目，整理的时候都看不上眼了，宁缺毋滥吧，继续加油付诸更多实践~',
                     noClick: true
                 },
                 {
-                    id: 5,
+                    id: '4',
                     title: 'qiankun 微前端框架实践',
                     imgUrl: 'https://bj-mutou-1301404888.cos.ap-beijing.myqcloud.com/cdn/mutou-works/micro-front.gif',
                     desc: `❤️微前端是近两年前端社区非常热的一个话题，年前我偶然看到公众号推送的文章之后，对微前端产生了很浓的兴趣，
@@ -47,7 +47,7 @@ export default {
                     netUrl: 'http://office.yangxc.cn:3334'
                 },
                 {
-                    id: 3,
+                    id: '3',
                     title: 'office文件转png图片 ( SPA版本 ) ',
                     imgUrl: 'https://bj-mutou-1301404888.cos.ap-beijing.myqcloud.com/cdn/mutou-works/file2png-img.jpg',
                     desc: `由于去年项目中有实现在线预览文档的需求，当时因为项目紧急，且没办法使用阿里云OSS的文档工具，
@@ -58,7 +58,7 @@ export default {
                     netUrl: 'http://office.yangxc.cn'
                 },
                 {
-                    id: 2,
+                    id: '2',
                     title: 'office文件转png图片 ( SSR版本 ) ',
                     imgUrl: 'https://bj-mutou-1301404888.cos.ap-beijing.myqcloud.com/cdn/mutou-works/file2png-img.jpg',
                     desc: `
@@ -70,7 +70,15 @@ export default {
                     netUrl: 'http://office.yangxc.cn:9999'
                 },
                 {
-                    id: 1,
+                    id: '1-1',
+                    title: '自定义指令 - loading',
+                    imgUrl: 'https://bj-mutou-1301404888.cos.ap-beijing.myqcloud.com/cdn/mutou-works/mt-loading.gif',
+                    desc: `按兴趣和平时遇到的需求，将开发和日常做项目中常用的一个loading封装了出来，使用自定义指令，方便小巧，
+                    即插即用，一次引用，全局使用。`,
+                    netUrl: 'https://www.jianshu.com/p/a0d3c8fcb4aa'
+                },
+                {
+                    id: '1',
                     title: '图片验证码插件',
                     imgUrl: 'https://bj-mutou-1301404888.cos.ap-beijing.myqcloud.com/cdn/mutou-works/image-verify-code.gif',
                     desc: `作为一次独立开发插件的实践。利用业余时间将项目中的图片验证码插件进行拆分，暴露配置选项，封装出来的该验证码插件，
